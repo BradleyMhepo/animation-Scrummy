@@ -1,0 +1,124 @@
+{
+  "id": "switch_move",
+  "name": "Switch Move - Left Channel",
+  "description": "10 receives from 9, switches with 12 running inside angle",
+  "durationMs": 5000,
+  "field": {
+    "length": 100,
+    "width": 70
+  },
+  "players": [
+    {
+      "id": "p9",
+      "name": "Scrum Half",
+      "team": "home",
+      "number": 9,
+      "color": "#facc15"
+    },
+    {
+      "id": "p10",
+      "name": "Fly Half",
+      "team": "home",
+      "number": 10,
+      "color": "#facc15"
+    },
+    {
+      "id": "p12",
+      "name": "Inside Center",
+      "team": "home",
+      "number": 12,
+      "color": "#facc15"
+    },
+    {
+      "id": "p13",
+      "name": "Outside Center",
+      "team": "home",
+      "number": 13,
+      "color": "#facc15"
+    },
+    {
+      "id": "d10",
+      "name": "Defender 10",
+      "team": "away",
+      "number": 10,
+      "color": "#f9fafb"
+    },
+    {
+      "id": "d12",
+      "name": "Defender 12",
+      "team": "away",
+      "number": 12,
+      "color": "#f9fafb"
+    },
+    {
+      "id": "d13",
+      "name": "Defender 13",
+      "team": "away",
+      "number": 13,
+      "color": "#f9fafb"
+    }
+  ],
+  "keyframes": [
+    {
+      "timeMs": 0,
+      "positions": {
+        "p9": { "x": 30, "y": 35 },
+        "p10": { "x": 35, "y": 30 },
+        "p12": { "x": 38, "y": 40 },
+        "p13": { "x": 42, "y": 28 },
+        "d10": { "x": 45, "y": 30 },
+        "d12": { "x": 48, "y": 38 },
+        "d13": { "x": 52, "y": 28 }
+      }
+    },
+    {
+      "timeMs": 1000,
+      "positions": {
+        "p9": { "x": 30, "y": 35 },
+        "p10": { "x": 40, "y": 30 },
+        "p12": { "x": 40, "y": 36 },
+        "p13": { "x": 45, "y": 28 },
+        "d10": { "x": 47, "y": 30 },
+        "d12": { "x": 50, "y": 38 },
+        "d13": { "x": 54, "y": 28 }
+      }
+    },
+    {
+      "timeMs": 2000,
+      "positions": {
+        "p9": { "x": 30, "y": 35 },
+        "p10": { "x": 45, "y": 35 },
+        "p12": { "x": 45, "y": 30 },
+        "p13": { "x": 48, "y": 28 },
+        "d10": { "x": 49, "y": 32 },
+        "d12": { "x": 52, "y": 38 },
+        "d13": { "x": 56, "y": 28 }
+      }
+    },
+    {
+      "timeMs": 3500,
+      "positions": {
+        "p9": { "x": 30, "y": 35 },
+        "p10": { "x": 48, "y": 38 },
+        "p12": { "x": 52, "y": 30 },
+        "p13": { "x": 52, "y": 28 },
+        "d10": { "x": 51, "y": 34 },
+        "d12": { "x": 54, "y": 32 },
+        "d13": { "x": 58, "y": 28 }
+      }
+    },
+    {
+      "timeMs": 5000,
+      "positions": {
+        "p9": { "x": 30, "y": 35 },
+        "p10": { "x": 50, "y": 40 },
+        "p12": { "x": 58, "y": 30 },
+        "p13": { "x": 55, "y": 28 },
+        "d10": { "x": 53, "y": 35 },
+        "d12": { "x": 56, "y": 31 },
+        "d13": { "x": 60, "y": 28 }
+      }
+    }
+  ]
+}
+

@@ -1,0 +1,124 @@
+{
+  "id": "crash_ball",
+  "name": "Crash Ball - Pod Off 9",
+  "description": "Forward pod crashes close to ruck, 9 feeds directly",
+  "durationMs": 4000,
+  "field": {
+    "length": 100,
+    "width": 70
+  },
+  "players": [
+    {
+      "id": "p9",
+      "name": "Scrum Half",
+      "team": "home",
+      "number": 9,
+      "color": "#facc15"
+    },
+    {
+      "id": "p4",
+      "name": "Lock",
+      "team": "home",
+      "number": 4,
+      "color": "#facc15"
+    },
+    {
+      "id": "p6",
+      "name": "Blindside",
+      "team": "home",
+      "number": 6,
+      "color": "#facc15"
+    },
+    {
+      "id": "p10",
+      "name": "Fly Half",
+      "team": "home",
+      "number": 10,
+      "color": "#facc15"
+    },
+    {
+      "id": "d6",
+      "name": "Defender 6",
+      "team": "away",
+      "number": 6,
+      "color": "#f9fafb"
+    },
+    {
+      "id": "d7",
+      "name": "Defender 7",
+      "team": "away",
+      "number": 7,
+      "color": "#f9fafb"
+    },
+    {
+      "id": "d10",
+      "name": "Defender 10",
+      "team": "away",
+      "number": 10,
+      "color": "#f9fafb"
+    }
+  ],
+  "keyframes": [
+    {
+      "timeMs": 0,
+      "positions": {
+        "p9": { "x": 30, "y": 35 },
+        "p4": { "x": 32, "y": 32 },
+        "p6": { "x": 32, "y": 38 },
+        "p10": { "x": 35, "y": 30 },
+        "d6": { "x": 40, "y": 33 },
+        "d7": { "x": 40, "y": 37 },
+        "d10": { "x": 45, "y": 30 }
+      }
+    },
+    {
+      "timeMs": 800,
+      "positions": {
+        "p9": { "x": 31, "y": 35 },
+        "p4": { "x": 34, "y": 32 },
+        "p6": { "x": 34, "y": 38 },
+        "p10": { "x": 36, "y": 30 },
+        "d6": { "x": 41, "y": 33 },
+        "d7": { "x": 41, "y": 37 },
+        "d10": { "x": 46, "y": 30 }
+      }
+    },
+    {
+      "timeMs": 1500,
+      "positions": {
+        "p9": { "x": 32, "y": 35 },
+        "p4": { "x": 38, "y": 33 },
+        "p6": { "x": 37, "y": 37 },
+        "p10": { "x": 38, "y": 30 },
+        "d6": { "x": 42, "y": 34 },
+        "d7": { "x": 42, "y": 37 },
+        "d10": { "x": 48, "y": 30 }
+      }
+    },
+    {
+      "timeMs": 2500,
+      "positions": {
+        "p9": { "x": 32, "y": 35 },
+        "p4": { "x": 42, "y": 34 },
+        "p6": { "x": 41, "y": 36 },
+        "p10": { "x": 40, "y": 30 },
+        "d6": { "x": 43, "y": 34 },
+        "d7": { "x": 43, "y": 36 },
+        "d10": { "x": 50, "y": 30 }
+      }
+    },
+    {
+      "timeMs": 4000,
+      "positions": {
+        "p9": { "x": 32, "y": 35 },
+        "p4": { "x": 44, "y": 35 },
+        "p6": { "x": 43, "y": 35 },
+        "p10": { "x": 42, "y": 30 },
+        "d6": { "x": 44, "y": 35 },
+        "d7": { "x": 44, "y": 35 },
+        "d10": { "x": 52, "y": 30 }
+      }
+    }
+  ]
+}
+
